@@ -154,3 +154,212 @@ a {
   height: 30px;
   width: 100%;
 }
+
+/* ============================================================== */
+
+.planAndManage {
+  padding-top: 170px;
+  padding-bottom: 170px;
+  background: #F5F8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.planAndManage__left {
+  width: 35%;
+}
+.planAndManage__slogan {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3D4F9F;
+  margin-bottom: 27px;
+}
+.planAndManage__title {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  color: #3D4F9F;
+  margin-bottom: 27px;
+}
+.planAndManage__title span {
+  font-weight: 500;
+}
+.planAndManage__description {
+  max-width: 413px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  color: #8D96BD;
+  margin-bottom: 47px;
+}
+.planAndManage__pic {
+  max-width: 653px;
+  filter: drop-shadow(0 0 0.75rem rgb(204, 204, 204));
+}
+.planAndManage__button {
+  padding: 13px 40px;
+  border-radius: 2px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  margin-right: 1px;
+  outline: none;
+  cursor: pointer;
+}
+.button_blue {
+  color: #FFFFFF;
+  background: #4C85FF;
+  box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
+  border: none;
+}
+.button_transparent {
+  border: 1px solid #D1D1E4;
+  border-radius: 2px;
+  color: #ADB4D2;
+  background-color: transparent;
+}
+
+/* ============================================================== */
+
+.aboutApp {
+  padding-top: 170px;
+  padding-bottom: 170px;
+  background-color: #fff;
+}
+.aboutApp__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url(../img/clouds_bg.svg);
+  background-size: cover;
+  background-position: center center;
+}
+.aboutApp__slogan {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #3D4F9F;
+  margin-bottom: 20px;
+}
+.aboutApp__title {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #3D4F9F;
+  margin-bottom: 92px;
+}
+.aboutApp__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutApp__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  padding-bottom: 30px;
+}
+.item__picCont {
+  width: 69px;
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  background: #F1F5FF;
+  margin-bottom: 33px;
+}
+.item__title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  color: #4074F8;
+  margin-bottom: 25px;
+}
+.item__description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  color: #ADB3CB;
+  text-align: center;
+  padding: 0 5px;
+  margin-bottom: 92px;
+}
+.aboutApp__buttons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.aboutApp__button {
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 13px 15px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.button_coral {
+  /* display: inline-block; */
+  color: #D43F3F;
+  background: #FFD7D7;
+  margin-right: 47px;
+}
+.button__between::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 1px;
+  border: 1px solid #DAE4FE;
+  left: -68px; top: 9px;
+  transform: translateX(40px);
+}
+.button__between::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 1px;
+  border: 1px solid #DAE4FE;
+  left: -13px; top: 7px;
+  transform: translateX(40px);
+}
+.button_lightblue {
+  background: #D2E1FF;
+  color: #3A79FF;
+}
+.button__between {
+  width: 16px;
+  height: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  text-align: center;
+  color: #ADB3CB;
+  position: relative;
+  margin-right: 47px;
+}
