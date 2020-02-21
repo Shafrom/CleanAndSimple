@@ -448,6 +448,7 @@ a {
   padding-top: 104px;
   padding-bottom: 104px;
   background: #F5F8FF;
+  overflow-x: hidden;
 }
 .ourResources__top {
   font-family: Roboto;
@@ -580,3 +581,118 @@ a {
   outline: none;
 }
 
+/* ========================================================== */
+
+.testimonials {
+  padding-top: 109px;
+  padding-bottom: 108px;
+  padding-left: 220px;
+  background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* overflow-x: hidden; */
+}
+.testimonials__leftSide {
+  width: 40%;
+  margin-left: 100px;
+  flex-shrink: 0;
+}
+.testimonials__toptext {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3D4F9F;
+  margin-bottom: 31px;
+}
+.testimonials__title {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #3D4F9F;
+  margin-bottom: 15px;
+}
+.testimonials__description {
+  max-width: 333px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: #A4ABC8;
+}
+.testimonials__slider {
+  overflow-x: hidden;
+  position: relative;
+}
+.testimonial__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonials__content {
+  /* width: 423px; */
+  flex-shrink: 0;
+  padding: 41px 69px;
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #676F95;
+  background: #FFFFFF;
+  border: 1px solid #D8E3FE;
+  box-shadow: 0px 5px 50px #F3F5FA;
+}
+.testimonials__avatar {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  top: 100%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonial__pagination {
+  padding-top: 80px;
+  padding-left: 150px;
+  /* position: absolute;
+  top: 100%; left: 100%;
+  transform: translateY(-50%); */
+}
+.swiper-slide-next,
+.swiper-slide-prev {
+  opacity: 0.3;
+}
+
+/* ========================================================= */
+
+.FaQ {
+  margin: 0 auto;
+  padding-top: 176px;
+  padding-bottom: 174px;
+  background: #FFFFFF;
+}
+.FaQ__topText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #3D4F9F;
+  margin-bottom: 20px;
+}
+.FaQ__title {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #3D4F9F;
+  margin-bottom: 68px;
+}
